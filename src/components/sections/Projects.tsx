@@ -36,8 +36,7 @@ const PROJECTS_DATA = [
       "Integrated secure payment gateways for course registration fee transactions.",
       "Visualized revenue and class enrollment metrics on the admin control board."
     ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    github: "https://github.com"
   },
   {
     id: 2,
@@ -51,8 +50,7 @@ const PROJECTS_DATA = [
       "Fast page loads and full Search Engine Optimization (SEO) setup.",
       "Protected user forms for incoming business inquiries with automated email notifications."
     ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    github: "https://github.com"
   },
   {
     id: 3,
@@ -66,8 +64,7 @@ const PROJECTS_DATA = [
       "Completely optimized to compile into a static fast-loading production bundle.",
       "Professional vertical experiences timeline and project interactive detail pop-ups."
     ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    github: "https://github.com"
   },
   {
     id: 4,
@@ -81,8 +78,7 @@ const PROJECTS_DATA = [
       "Interactive category filters and smooth custom transitions using framer-motion.",
       "Clean UI layout designed with a minimalist slate dark mode concept."
     ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    github: "https://github.com"
   }
 ];
 
@@ -277,15 +273,6 @@ export default function Projects() {
                   >
                     <Github className="h-4 w-4 text-indigo-400" />
                     Source Code
-                  </a>
-                  <a
-                    href={selectedProject.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2 text-xs sm:text-sm font-semibold rounded-xl bg-gradient-to-r from-indigo-500 to-teal-500 px-5 py-3 text-white hover:opacity-95 transition-all shadow-md shadow-indigo-500/10"
-                  >
-                    Live Demo
-                    <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
 
