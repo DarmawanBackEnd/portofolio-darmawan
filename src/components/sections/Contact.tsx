@@ -57,7 +57,13 @@ export default function Contact() {
     const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
 
     if (!accessKey) {
-      // If no key is set yet, simulate successful submission for development
+      if (process.env.NODE_ENV === "production") {
+        // Fail clearly in production if the key is not configured
+        setStatus("error");
+        return;
+      }
+      
+      // Simulate successful submission for development
       setTimeout(() => {
         setStatus("success");
         setName("");
