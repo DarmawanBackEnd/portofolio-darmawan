@@ -154,7 +154,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">Official Email</h4>
-                    <p className="text-sm font-semibold text-white group-hover:text-indigo-300 transition-colors">contact@darmawan.dev</p>
+                    <p className="text-sm font-semibold text-white group-hover:text-indigo-300 transition-colors">wibisonodarmawan59@gmail.com</p>
                   </div>
                 </a>
 
